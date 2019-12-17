@@ -28,10 +28,10 @@ const App = () => {
 
       <Switch>
         {/* // Switch get rid of exct<Route exact path="/" component={Home} /> */}
+        <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/skills" component={Skills} />
         <Route path="/blog" component={Blog} />
-        <Route path="/" component={Home} />
         <Route exact component={ErrorNotFound} />
       </Switch>
     </div>
